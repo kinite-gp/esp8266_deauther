@@ -360,18 +360,18 @@ const char D_B[] PROGMEM = "A:";
 const char D_A[] PROGMEM = "B:";
 
 // MAIN MENU
-const char D_SCAN[] PROGMEM = "SCAN";
-const char D_SHOW[] PROGMEM = "SELECT";
-const char D_ATTACK[] PROGMEM = "ATTACK";
-const char D_PACKET_MONITOR[] PROGMEM = "PACKET MONITOR";
-const char D_CLOCK[] PROGMEM = "CLOCK";
-const char D_CLOCK_DISPLAY[] PROGMEM = "CLOCK DISPLAY";
-const char D_CLOCK_SET[] PROGMEM = "SET CLOCK";
+const char D_SCAN[] PROGMEM = "Scan";
+const char D_SHOW[] PROGMEM = "Select";
+const char D_ATTACK[] PROGMEM = "Attack";
+const char D_PACKET_MONITOR[] PROGMEM = "Packet Monitor";
+const char D_CLOCK[] PROGMEM = "Clock";
+const char D_CLOCK_DISPLAY[] PROGMEM = "Clock Display";
+const char D_CLOCK_SET[] PROGMEM = "Set Clock";
 
 // SCAN MENU
-const char D_SCAN_APST[] PROGMEM = "SCAN AP + ST";
-const char D_SCAN_AP[] PROGMEM = "SCAN APs";
-const char D_SCAN_ST[] PROGMEM = "SCAN Stations";
+const char D_SCAN_APST[] PROGMEM = "Scan AP + ST";
+const char D_SCAN_AP[] PROGMEM = "Scan APs";
+const char D_SCAN_ST[] PROGMEM = "Scan Stations";
 
 // SHOW MENU
 const char D_ACCESSPOINTS[] PROGMEM = "APs ";
@@ -380,15 +380,15 @@ const char D_NAMES[] PROGMEM = "Names ";
 const char D_SSIDS[] PROGMEM = "SSIDs ";
 
 // SSID LIST MENU
-const char D_CLONE_APS[] PROGMEM = "CLONE APs";
-const char D_RANDOM_MODE[] PROGMEM = "RANDOM MODE";
+const char D_CLONE_APS[] PROGMEM = "Clone APs";
+const char D_RANDOM_MODE[] PROGMEM = "Random Mode";
 
 // ATTACK MENU
-const char D_DEAUTH[] PROGMEM = "DEAUTH";
-const char D_BEACON[] PROGMEM = "BEACON";
-const char D_PROBE[] PROGMEM = "PROBE";
-const char D_START_ATTACK[] PROGMEM = "START";
-const char D_STOP_ATTACK[] PROGMEM = "STOP";
+const char D_DEAUTH[] PROGMEM = "Deauth";
+const char D_BEACON[] PROGMEM = "Beacon";
+const char D_PROBE[] PROGMEM = "Probe";
+const char D_START_ATTACK[] PROGMEM = "Start";
+const char D_STOP_ATTACK[] PROGMEM = "Stop";
 
 // SUB MENUS
 const char D_ENCRYPTION[] PROGMEM = "Encryption:";

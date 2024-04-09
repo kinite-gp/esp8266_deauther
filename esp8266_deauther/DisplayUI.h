@@ -48,14 +48,14 @@ extern String right(String a, int len);
 extern String leftRight(String a, String b, int len);
 extern String replaceUtf8(String str, String r);
 
-const char D_INTRO_0[] PROGMEM = "ESP8266 Deauther";
-const char D_INTRO_1[] PROGMEM = "by @Spacehuhn";
+const char D_INTRO_0[] PROGMEM = "ESP Deauther";
+const char D_INTRO_1[] PROGMEM = "@kinite-gp";
 const char D_INTRO_2[] PROGMEM = DISPLAY_TEXT;
 const char D_RESETTING[] PROGMEM = "Resetting...";
-const char D_SCANNING_0[] PROGMEM = "> Scanning";
-const char D_SCANNING_1[] PROGMEM = "> Scanning.";
-const char D_SCANNING_2[] PROGMEM = "> Scanning..";
-const char D_SCANNING_3[] PROGMEM = "> Scanning...";
+const char D_SCANNING_0[] PROGMEM = "Scanning.";
+const char D_SCANNING_1[] PROGMEM = "Scanning..";
+const char D_SCANNING_2[] PROGMEM = "Scanning....";
+const char D_SCANNING_3[] PROGMEM = "Scanning......";
 
 struct MenuNode {
     std::function<String()>getStr; // function used to create the displayed string

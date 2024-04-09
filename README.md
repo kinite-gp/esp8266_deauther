@@ -2,7 +2,9 @@
 
 <img src='https://deauther.com/img/logo.png' alt='Deauther Logo' width='200' />
 
-**Scan for WiFi devices, block selected connections, create dozens of networks and confuse WiFi scanners.**
+**Scan for WiFi devices, block selected connections, create dozens of networks and confuse WiFi scanners.**<br>
+**>> This clone is only the version that I use on my wemos mini d1 (in this version, the problem of the buttons not working has been fixed)**
+
 
 ## New Documentation
 
