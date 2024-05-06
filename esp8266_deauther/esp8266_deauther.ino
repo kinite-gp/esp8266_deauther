@@ -106,6 +106,8 @@ void setup() {
     settings::save();
     #endif // ifndef RESET_SETTINGS
 
+
+
     wifi::begin();
     wifi_set_promiscuous_rx_cb([](uint8_t* buf, uint16_t len) {
         scan.sniffer(buf, len);

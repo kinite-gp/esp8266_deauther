@@ -48,8 +48,8 @@
 
 // ACCESS POINT CONFIG
 #define AP_SSID "TP-Link_657370"
-#define AP_PASSWD "657370"
-#define AP_HIDDEN true
+#define AP_PASSWD "pass657370"
+#define AP_HIDDEN false
 #define AP_IP_ADDR {192, 168, 4, 1}
 
 // WEB CONFIG
@@ -67,7 +67,10 @@
 
 #define USE_LED true
 #define LED_MODE_OFF 0, 0, 0
-#define LED_MODE_SCAN 0, 0, 255
-#define LED_MODE_ATTACK 255, 0, 0
-#define LED_MODE_IDLE 0, 255, 0
+#define LED_MODE_SCAN 1, 1, 0
+#define LED_MODE_ATTACK 0, 1, 1
+#define LED_MODE_IDLE 0, 1, 0
+#define LED_PIN_R 3
+#define LED_PIN_G 16
+#define LED_PIN_B 0
 
